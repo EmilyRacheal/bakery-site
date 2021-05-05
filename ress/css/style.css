@@ -58,12 +58,27 @@ section#banner>.header-text p{
 }
 
 /* ====about section==== */
-section#about .story>.our{
+section#about .story > .our{
     color: #ffe9c5;
     font-size: 40px;
+}
+
+.about-padd{
+    padding-top: 90px;
 }
 
 section#about .story>h1{
     /* color: #ffe9c5; */
     font-size: 60px;
+}
+
+.mbg-color2{
+    border: 2px solid #eb6383;
+    border-radius: none;
+}
+
+.mbg-color2:hover{
+    background-color: #eb6383;
+    color: #ffe9c5;
+    border: none;
 }
