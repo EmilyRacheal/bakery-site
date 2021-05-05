@@ -59,7 +59,7 @@ section#banner>.header-text p{
 
 /* ====about section==== */
 section#about .story > .our{
-    color: #ffe9c5;
+    color: #b4f2e1;
     font-size: 40px;
 }
 
@@ -70,6 +70,10 @@ section#about .story > .our{
 section#about .story>h1{
     /* color: #ffe9c5; */
     font-size: 60px;
+}
+
+.padd-b{
+    padding-bottom: 90px;
 }
 
 .mbg-color2{
