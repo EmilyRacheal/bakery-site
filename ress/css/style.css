@@ -1,11 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 #banner{
-    height: 90vh;
+    height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/a.jpg") no-repeat no-repeat center center fixed;  
     background-size: cover;
     background-position: center;
     padding-top: 230px;
 }
 
+.nav-link{
+    font-size: 17px;
+    color: lightgray !important;
+}
+.active{
+    color: white !important;
+}
+
+.nav-blog{
+    font-size: 40px;
+}
+
+.colF{
+    color: white;
+}
+
+.blog{
+    color: #eb6383
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+
+/* .mycolor{
+    color: #000 !important;
+
+} */
+
+section#banner>.header-text h1{
+    font-size: 70px;
+}
+
+section#banner>.header-text p{
+    font-size: 20px;
+    color: lightgray;
+}
+
 .mybg-trans{
     background-color: transparent !important;
+}
+
+/* ====about section==== */
+section#about .story>.our{
+    color: #ffe9c5;
+    font-size: 40px;
+}
+
+section#about .story>h1{
+    /* color: #ffe9c5; */
+    font-size: 60px;
 }
