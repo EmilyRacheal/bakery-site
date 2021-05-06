@@ -116,3 +116,8 @@ section#about .story>h1{
 .div-text{
     height: 150px;
 }
+
+/* ==== styling for the contact section ===== */
+.myMW-690{
+    max-width: 690px;
+}
