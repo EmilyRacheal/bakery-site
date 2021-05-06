@@ -88,7 +88,31 @@ section#about .story>h1{
 }
 
 /* ==== styling for the offers section===== */
-/* .carousel-item img{
-    height: 90vh;
-    width: 100vw;
-} */
+.text-h1>h1{
+    font-size: 60px;
+}
+
+.text-h1>p{
+    color: #ffe9c5; 
+}
+
+.mbg-colo2{
+    border: 2px solid #eb6383;
+    border-radius: none;
+    color: #fff;
+}
+
+.mbg-colo2:hover{
+    background-color: #eb6383;
+    color: #ffe9c5;
+    border: none;
+}
+
+.myflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-text{
+    height: 150px;
+}
