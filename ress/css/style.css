@@ -39,11 +39,6 @@ body{
     color: white !important;
 }
 
-/* .mycolor{
-    color: #000 !important;
-
-} */
-
 section#banner>.header-text h1{
     font-size: 70px;
 }
@@ -120,4 +115,24 @@ section#about .story>h1{
 /* ==== styling for the contact section ===== */
 .myMW-690{
     max-width: 690px;
+}
+
+
+/* ===== styling for the cakes page===== */
+
+#banners{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/f.jpg") no-repeat no-repeat center center fixed;  
+    background-size: cover;
+    background-position: center;
+    padding-top: 230px;
+}
+
+section#banners>.header-text h1{
+    font-size: 70px;
+}
+
+section#banners>.header-text p{
+    font-size: 20px;
+    color: lightgray;
 }
