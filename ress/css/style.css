@@ -136,3 +136,28 @@ section#banners>.header-text p{
     font-size: 20px;
     color: lightgray;
 }
+
+
+/* ==== styling for the cakes gallery ===== */
+.mb-colo2{
+    border: 2px solid #eb6383;
+    border-radius: none;
+    color: #000;
+}
+
+.mb-colo2:hover{
+    background-color: #eb6383;
+    color: #ffe9c5;
+    border: none;
+}
+
+.div-text>h3{
+    color: #000;
+}
+.div-text{
+    color:#000;
+}
+
+.bg-col{
+    background-color: #ffe9c5;
+}
