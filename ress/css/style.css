@@ -44,7 +44,7 @@ section#banner>.header-text h1{
 }
 
 section#banner>.header-text p{
-    font-size: 20px;
+    font-size: 30px;
     color: lightgray;
 }
 
@@ -133,7 +133,7 @@ section#banners>.header-text h1{
 }
 
 section#banners>.header-text p{
-    font-size: 20px;
+    font-size: 30px;
     color: lightgray;
 }
 
@@ -159,5 +159,49 @@ section#banners>.header-text p{
 }
 
 .bg-col{
+    background-color: #b8b5b0;
+}
+
+/* ==== styling for the pastry section ==== */
+#bannerss{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/15.jpg") no-repeat no-repeat center center fixed;  
+    background-size: cover;
+    background-position: center;
+    padding-top: 230px;
+}
+
+section#bannerss>.header-text h1{
+    font-size: 70px;
+}
+
+section#bannerss>.header-text p{
+    font-size: 30px;
+    color: lightgray;
+}
+
+/* ====== styling for the decoration page ====== */
+#bannersss{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/12.jpg") no-repeat no-repeat center center fixed;  
+    background-size: cover;
+    background-position: center;
+    padding-top: 230px;
+}
+
+section#bannersss>.header-text h1{
+    font-size: 70px;
+}
+
+section#bannersss>.header-text p{
+    font-size: 30px;
+    color: lightgray;
+}
+
+.mycolor{
     background-color: #ffe9c5;
+}
+
+.mycol{
+    color: #eb6383 !important;
 }
