@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="ress/css/animate.css" />
     <link rel="stylesheet" href="ress/css/responsive.css">
     <link rel="stylesheet" href="ress/fontawe/fontawesome-free-5.15.2-web/css/all.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> -->
+    <link rel="stylesheet" href="ress/css/animate.css">
     <title>BoostrapDesign</title>
 </head>
 <body>
@@ -43,8 +44,9 @@
         </div>
       </nav>
       <!-- ===== bodyHeader section ====== -->
-    <section id="banner" class="text-center text-white" >
-      <div class="container header-text">
+    <section  id="banner" class="text-center text-white" >
+      <div class="container header-text"
+      data-aos="zoom-in-up">
         <h1>Welcome To Favy's Bake</h1>
         <p>You cannot resist the the taste...</p>
       </div>
@@ -55,7 +57,7 @@
     <section id="about" class="about-padd padd-b">
       <div class="col-md-10 offset-md-1 py-5">
         <div class="row">
-          <div class="col-md-5 story">
+          <div class="col-md-5 story" data-aos="zoom-in-down">
             <p class="our" style="margin-bottom: 0px;" >our story</p>
             <h1>Welcome</h1>
             <p class="tex-justify mt-4">
@@ -70,7 +72,7 @@
             </p>
           </div>
           <div class="col-md-7">
-            <img src="ress/img/b.jpg" class="img-fluid border"alt="">
+            <img src="ress/img/b.jpg" class="img-fluid border"alt="" data-aos="zoom-in-left">
           </div>
         </div>
     </section>
@@ -84,9 +86,11 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
+          </ol> 
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
               <div class="container py-5">
                 <div class="text-h1">
                   <h1 class="text-shadow-bold wow  fadeInUp text-center animate__animated animate__bounce" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Our Offers</h1>
@@ -268,7 +272,7 @@
 
 <!-- ==== Gallery section====== -->
     <a name="gallery"></a>
-    <section id="gallery" class="about-padd">
+    <section id="gallery" class="about-padd" >
       <div class="container">
         <div class="text-h1 ">
           <h1 class="text-shadow-bold wow  fadeInUp text-center animate__animated animate__bounce" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Galllery</h1>
@@ -278,58 +282,68 @@
             </p>
         </div>
 
-        <div class="row text-center pt-3 pb-5  animate__animated animate__wobble">
-          <div class="col-md-4 mb-3 wow fadeInUp">
+        <div class="row text-center pt-3 pb-5 ">
+          <div class="col-md-4 mb-3">
             <div class="facts-img ">
-              <img src="ress/img/h.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
+              <img data-aos="fade-right"
+              data-aos-offset="300" src="ress/img/h.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
             </div>
           </div>
 
           <div class="col-md-4 mb-3 wow fadeInUp">
             <div class="facts-img ">
-              <img src="ress/img/i.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
+              <img data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" src="ress/img/i.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
             </div>
           </div>
 
           <div class="col-md-4 mb-3 wow fadeInUp">
             <div class="facts-img ">
-              <img src="ress/img/pi.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
+              <img data-aos="fade-right"
+              data-aos-offset="300" src="ress/img/pi.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
             </div>
           </div>
 
           <div class="col-md-4 mb-3 wow fadeInUp">
             <div class="facts-img ">
-              <img src="ress/img/30.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
+              <img data-aos="fade-right"
+              data-aos-offset="300" src="ress/img/30.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
             </div>
           </div>
           
           <div class="col-md-4 mb-3 wow fadeInUp">
             <div class="facts-img ">
-              <img src="ress/img/555.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
+              <img data-aos="fade-right"
+              data-aos-offset="300" src="ress/img/555.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
             </div>
           </div>
 
           <div class="col-md-4 mb-3 wow fadeInUp">
             <div class="facts-img ">
-              <img src="ress/img/222.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
+              <img data-aos="fade-right"
+              data-aos-offset="300" src="ress/img/222.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
             </div>
           </div>
 
           <div class="col-md-4 mb-3 wow fadeInUp">
             <div class="facts-img ">
-              <img src="ress/img/19.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
+              <img data-aos="fade-right"
+              data-aos-offset="300" src="ress/img/19.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
             </div>
           </div>
           
           <div class="col-md-4 mb-3 wow fadeInUp">
             <div class="facts-img ">
-              <img src="ress/img/15.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
+              <img data-aos="fade-right"
+              data-aos-offset="300" src="ress/img/15.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
             </div>
           </div>
 
           <div class="col-md-4 mb-3 wow fadeInUp">
             <div class="facts-img ">
-              <img src="ress/img/de.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
+              <img data-aos="fade-right"
+              data-aos-offset="300" src="ress/img/de.jpg" alt="" class="img-fluid animate__animated animate__backInUp">
             </div>
           </div>
         </div>
@@ -426,8 +440,7 @@
 
 
 <script src="ress/js/script.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="ress/js/animate.js"></script>
 <script> AOS.init(); </script>
-<script src="ress/js/wow.js"></script>
 </body>
 </html>
